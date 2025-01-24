@@ -46,17 +46,17 @@ public class SP implements Autonomous {
     public static final Pose NetZoneStart = new Pose(96 - widthOffset, 143 - lengthOffset, Math.toRadians(270)); // Net start
 
 
-    public static final Pose Specimen1 = new Pose(114 + lengthOffset, 24 + placementRange, Math.toRadians(270)); // Specimen1
+    public static final Pose Specimen1 = new Pose(66 + lengthOffset, 96 + placementRange, Math.toRadians(270)); // Specimen1
 
-    public static final Pose Specimen2 = new Pose(-7.5 + lengthOffset, 24 + placementRange, Math.toRadians(270)); // Specimen2
+    public static final Pose Specimen2 = new Pose(64.5 + lengthOffset, 96 + placementRange, Math.toRadians(270)); // Specimen2
 
-    public static final Pose Specimen3 = new Pose(-9 + lengthOffset, 24 + placementRange, Math.toRadians(270)); // Specimen3
+    public static final Pose Specimen3 = new Pose(63 + lengthOffset, 96 + placementRange, Math.toRadians(270)); // Specimen3
 
-    public static final Pose Specimen4 = new Pose(-10.5 + lengthOffset, 24 + placementRange, Math.toRadians(270)); // Specimen4
+    public static final Pose Specimen4 = new Pose(61.5 + lengthOffset, 96 + placementRange, Math.toRadians(270)); // Specimen4
 
-    public static final Pose Specimen5 = new Pose(-12 + lengthOffset, 24 + placementRange, Math.toRadians(270)); // Specimen5
+    public static final Pose Specimen5 = new Pose(60 + lengthOffset, 96 + placementRange, Math.toRadians(270)); // Specimen5
 
-    public static final Pose NetSpecimen = new Pose(10.5, 24 + placementRange, Math.toRadians(270)); // Net Specimen
+    public static final Pose NetSpecimen = new Pose(82.5, 96 + placementRange, Math.toRadians(270)); // Net Specimen
 
 
     public static final Pose NetDiagonal = new Pose(72 - netPlacementRangex(45), 72 - netPlacementRangey(45), Math.toRadians(225)); // Net Diagonal
